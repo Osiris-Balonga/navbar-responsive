@@ -7,6 +7,11 @@ barre de navigation responsive qui devient un menu burger sur mobile.
 
 ![Apercu de la navbar Somba Ndako](assets/images/readme-preview.png)
 
+## Demo
+
+- GitHub Pages : https://osiris-balonga.github.io/navbar-responsive/
+- Repository : https://github.com/Osiris-Balonga/navbar-responsive
+
 ## Objectif
 
 - Reutiliser l'identite Somba Ndako du projet source pour la navbar.
