@@ -1,0 +1,15 @@
+<svg width="160" height="160" viewBox="0 0 160 160" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="logo-title logo-description">
+  <title id="logo-title">Logo Somba Ndako</title>
+  <desc id="logo-description">Repere de localisation vert avec une maison sombre et une porte blanche.</desc>
+  <defs>
+    <linearGradient id="pin-gradient" x1="34" y1="22" x2="126" y2="134" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#91FF72"/>
+      <stop offset="1" stop-color="#5EEA4A"/>
+    </linearGradient>
+  </defs>
+  <path d="M80 149C80 149 31 103.2 31 64.8C31 37.2 52.9 16 80 16C107.1 16 129 37.2 129 64.8C129 103.2 80 149 80 149Z" fill="url(#pin-gradient)"/>
+  <path d="M80 35L111 57.4V96H49V57.4L80 35Z" fill="#111511"/>
+  <path d="M80 46.2L100.4 61.4V89.1H59.6V61.4L80 46.2Z" fill="#133123"/>
+  <rect x="72.5" y="69" width="15" height="20.5" rx="2" fill="#F7F8F3"/>
+  <circle cx="84.2" cy="79.4" r="1.25" fill="#111511"/>
+</svg>

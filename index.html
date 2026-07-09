@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Navigation responsive avec Flexbox et menu burger sans JavaScript."
+    />
+    <title>Navigation Responsive | Somba Ndako</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav class="navbar" aria-label="Navigation principale">
+      <a class="brand" href="#" aria-label="Somba Ndako - Accueil">
+        <img
+          class="brand-logo"
+          src="assets/images/somba-ndako-logo.svg"
+          alt=""
+          aria-hidden="true"
+        />
+        <span class="brand-name">Somba<span>Ndako</span></span>
+      </a>
+
+      <input class="nav-toggle" type="checkbox" id="nav-toggle" />
+      <label
+        class="burger-button"
+        for="nav-toggle"
+        aria-label="Ouvrir le menu"
+      >
+        <span class="burger-icon" aria-hidden="true">
+          <span></span>
+        </span>
+      </label>
+
+      <div class="nav-content" id="main-menu">
+        <ul class="menu">
+          <li>
+            <a class="active" href="#" aria-current="page">Accueil</a>
+          </li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Logements</a></li>
+          <li><a href="#">A propos</a></li>
+        </ul>
+
+        <a class="nav-cta" href="#">Contactez-nous</a>
+      </div>
+    </nav>
+  </body>
+</html>
